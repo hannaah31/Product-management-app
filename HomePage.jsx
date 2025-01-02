@@ -4,7 +4,7 @@ import "./HomePage.css";
 function HomePage() {
   const [products, setProducts] = useState([]);
 
-  // Fetch products on component mount
+
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then((response) => response.json())
