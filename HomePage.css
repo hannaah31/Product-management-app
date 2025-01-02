@@ -1,0 +1,19 @@
+.home-page {
+    padding: 20px;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th,
+  .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .product-table img {
+    max-width: 50px;
+  }
+  
